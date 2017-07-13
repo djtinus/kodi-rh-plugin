@@ -28,5 +28,5 @@ def player(url):
 
 if __name__ == '__main__':
     url = 'http://stream2.rhr.fm'
-    addon_handle = int(sys.argv[1])
+    #addon_handle = int(sys.argv[1])
     player()
