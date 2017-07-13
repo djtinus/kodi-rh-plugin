@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.rhr.fm" name="Real Hardstyle Radio 24/7" version="0.0.1" provider-name="djtinus">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata" debugging="true">
+    <summary lang="en_gb">Your add-on's summary</summary>
+    <description lang="en_gb">Your add-on's description</description>
+    <disclaimer lang="en_gb">bazinga!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE</license>
+    <forum></forum>
+    <website>http://www.rhr.fm</website>
+    <email></email>
+    <source>https://github.com/djtinus/kodi-rh-plugin</source>
+    <news></news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
